@@ -6,7 +6,7 @@ from llama_index import SimpleDirectoryReader
 
 st.set_page_config(page_title="Chat with the documents, powered by Zensar", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 openai.api_key = st.secrets.openai_key
-st.title("Chat with the documents, powered by LlamaIndex 💬🦙")
+st.title("Chat with the documents, powered by Zensar 💬🦙")
 #st.info("Check out the full tutorial to build this app in our [blog post](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/)", icon="📃")
          
 if "messages" not in st.session_state.keys(): # Initialize the chat messages history
